@@ -67,7 +67,7 @@ jQuery.ajax(gWebRoot + query + "Name_Address?PartyID="+partyID,
     console.table(Addresses);
     //await GetandUpdateAllAddresses(partyID);
 }
-function GetandUpdateAllAddresses1(partyID){
+function GetandUpdateAllAddresses(partyID){
 console.log("________________________first function finished");
 //jQuery.ajax("https://test.coptont.org/api/party/"+partyID,
 jQuery.ajax(gWebRoot + query + "party/"+partyID,
